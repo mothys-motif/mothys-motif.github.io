@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+
+.footer{
+  height: 50px;
+  background-color: rgb(161, 127, 90);
+  margin-top: 100px;
+}
+
+
+
+.font{
+  color: white;
+}
+
+
+span{
+  color: rgb(128, 128, 143);
+}
+
+
+
+p{
+  color: rgb(128, 128, 143);
+}
+
+
+
+.nav-link{
+    color: rgb(161, 121, 40);
+    border-radius: 30px;
+    transition: 300ms;
+    padding: 12px 10px;
+}
+
+
+
+.nav-link:hover{
+    background-color: rgb(161, 121, 40);
+    transform: scale(1.03);
+}
+
+
+.first-nav{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.first-row{
+  padding-top: 100px;
+}
+
+.h1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.explore{
+  border-radius: 10px;
+}
+
+
+.contact{
+  border-radius: 10px;
+}
+
+
+main .dress{
+  width: 250px;
+  height: 150px;
+  border: 2px solid #ff3d0036;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+
+main img:hover{
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
+
+
+
+.cloth:hover{
+  filter: grayscale(1);
+  transform: scale(1.03);
+  background-color: black;
+  color: wheat;
+  border-radius: 30px;
+}
+
+
+.cloth{
+  color: black;
+  font-weight: bolder;
+  transition: 300ms;
+  padding: 12px 10px;
+  margin-left: 10px;
+}
+
+
+.underline{
+  width: auto;
+  height: 2px;
+  background-color: black;
+}
+
+
+/* Styling for Gallery */
+.wears{
+  padding-top: 30px;
+}
+
+
+
+.navi{
+  padding-top: 75px;
+}
+
+
+.fixed{
+  position: fixed;
+}
+
+
+
+/* Styling for about */
+.about{
+  padding-top: 80px;
+}
+
+
+
+/* Styling for Contact */
+.cnt{
+  padding-top: 80px;
+}
+
+.link{
+  color: rgb(128, 128, 143);
+  text-decoration: none;
+}
+
+.fi{
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+/* Extra large Devices */
+@media (min-width:1200px) and (max-width:1399px){
+
+    .col-xl-1 {
+        width: 8.33%;
+      }
+      .col-xl-2 {
+        width: 16.66%;
+      }
+      .col-xl-3 {
+        width: 25%;
+      }
+      .col-xl-4 {
+        width: 33.33%;
+      }
+      .col-xl-5 {
+        width: 41.66%;
+      }
+      .col-xl-6 {
+        width: 50%;
+      }
+      .col-xl-7 {
+        width: 58.33%;
+      }
+      .col-xl-8 {
+        width: 66.66%;
+      }
+      .col-xl-9 {
+        width: 74.99%;
+      }
+      .col-xl-10 {
+        width: 83.33%;
+      }
+      .col-xl-11 {
+        width: 91.66%;
+      }
+      .col-xl-12 {
+        width: 100%;
+      }    
+}
+
+
+/* Large Devices */
+@media (min-width:992px) and (max-width:1199px){
+
+    .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }    
+}
+
+
+/* Medium Devices */
+@media (min-width:768px) and (max-width:991px){
+    .col-md-1 {
+        width: 8.33%;
+      }
+      .col-md-2 {
+        width: 16.66%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-5 {
+        width: 41.66%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-7 {
+        width: 58.33%;
+      }
+      .col-md-8 {
+        width: 66.66%;
+      }
+      .col-md-9 {
+        width: 74.99%;
+      }
+      .col-md-10 {
+        width: 83.33%;
+      }
+      .col-md-11 {
+        width: 91.66%;
+      }
+      .col-md-12 {
+        width: 100%;
+      } 
+}
+
+
+/* Small-Devices */
+@media (min-width:576px) and (max-width:767px){
+
+    .col-sm-1 {
+        width: 8.33%;
+      }
+      .col-sm-2 {
+        width: 16.66%;
+      }
+      .col-sm-3 {
+        width: 25%;
+      }
+      .col-sm-4 {
+        width: 33.33%;
+      }
+      .col-sm-5 {
+        width: 41.66%;
+      }
+      .col-sm-6 {
+        width: 50%;
+      }
+      .col-sm-7 {
+        width: 58.33%;
+      }
+      .col-sm-8 {
+        width: 66.66%;
+      }
+      .col-sm-9 {
+        width: 74.99%;
+      }
+      .col-sm-10 {
+        width: 83.33%;
+      }
+      .col-sm-11 {
+        width: 91.66%;
+      }
+      .col-sm-12 {
+        width: 100%;
+      }    
+}
+
+
+/* Extra-small */
+@media (max-width:575px){
+
+    .col-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 74.99%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }    
+}
